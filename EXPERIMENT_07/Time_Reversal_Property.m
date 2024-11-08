@@ -19,9 +19,9 @@ disp(y2');
 disp('DFT of x(N-n) by property : ');
 disp(y');
 if (abs(y-y2)<10^(-10))
-disp('Time reversal property of DFT is verified');
+    disp('Time reversal property of DFT is verified');
 else
-disp('Time reversal property of DFT is not verified');
+    disp('Time reversal property of DFT is not verified');
 end
 
 function x=DFT(x)
